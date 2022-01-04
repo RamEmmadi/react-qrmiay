@@ -1,0 +1,49 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  width: 280px;
+  height: 28px;
+}
+
+form input[type='checkbox'] {
+  width: 20px;
+  width: 20px;
+  display: inline;
+  margin: 10px 5px;
+}
+
+button {
+  margin: 10px 5px;
+}
+
+.errors {
+  border: 2px solid red;
+}
+
+.d-none {
+  display: none;
+}
+
+.error-msg {
+  color: red;
+}
+
+.mar-b-15 {
+  margin-bottom: 15px;
+}
